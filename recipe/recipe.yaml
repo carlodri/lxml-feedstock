@@ -23,7 +23,7 @@ requirements:
         - cython
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
-    - pkg-config
+    - pkgconf
   host:
     - libxml2-devel
     - python
